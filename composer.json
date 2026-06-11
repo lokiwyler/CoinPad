@@ -1,0 +1,30 @@
+{
+    "name": "furendyna/coinpad",
+    "description": "CoinPad - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coinpad\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coinpad\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "furendyna"
+        }
+    ]
+}
